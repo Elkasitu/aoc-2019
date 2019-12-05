@@ -10,7 +10,7 @@ def get_fuel_cost_recursive(mass):
 
 
 def get_raw_data():
-    with open('part1.txt', 'r') as data:
+    with open('input.txt', 'r') as data:
         data = data.read().split()
     return data
 
